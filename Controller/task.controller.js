@@ -14,7 +14,7 @@ exports.postTask = async (req, res) => {
 
 exports.getFunction = async (req, res) => {
   try {
-    const taskData = await Task.findOne();
+    const taskData = await Task.find();
     res.status(200).json(taskData);
   } catch (error) {
     console.error(error);
