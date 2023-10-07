@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 mongoose.set("strict", false); // Disable strict mode
 
 mongoose
-  .connect('mongodb+srv://muddamwarshubham98:s@cluster0.pah3tcf.mongodb.net/task', {
+  .connect('mongodb+srv://muddamwarshubham98:s@cluster0.pah3tcf.mongodb.net/sample', {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
